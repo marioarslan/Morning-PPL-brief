@@ -1,14 +1,27 @@
 {
   "_comment": "Mario's coaching state. Claude Code reads and updates this. rotationIndex: 0=Push, 1=Pull, 2=Legs (points at the NEXT session).",
-  "rotationIndex": 0,
-  "lastTrainedDate": null,
-  "streak": 0,
+  "rotationIndex": 1,
+  "lastTrainedDate": "2026-06-16",
+  "streak": 1,
   "currentKg": 72,
   "startKg": 67,
   "targetKg": 80,
   "bodyFatTarget": "10-15%",
-  "notes": "Fresh start. First session of the cycle is Push.",
-  "history": [],
+  "notes": "First Push done. Bench at 40–50 kg. Shoulder press dropped across sets (20→17.5→15 kg) — shoulders fatigued. Lateral raises dropped too (15→12.5 kg). Triceps solid at 20 kg overhead extension, 25 kg pushdown.",
+  "history": [
+    {
+      "date": "2026-06-16",
+      "session": "Push",
+      "exercises": {
+        "barbell_bench_press": "4 sets: mostly 40 kg each side, 1 set at 50 kg total",
+        "incline_dumbbell_press": "1 set x 20 kg DBs (incomplete — only 1 set logged)",
+        "seated_dumbbell_shoulder_press": "3 sets: 20 kg x3, 17.5 kg x8, 15 kg x10",
+        "dumbbell_lateral_raise": "3 sets: 15 kg x6, 12.5 kg x10, 12.5 kg x10",
+        "overhead_tricep_extension": "4 sets: 20 kg x3, 15 kg last set",
+        "rope_tricep_pushdown": "3 sets x 25 kg"
+      }
+    }
+  ],
   "weightLog": [
     { "date": "2026-06-16", "kg": 72 }
   ]
