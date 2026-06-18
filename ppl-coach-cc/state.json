@@ -1,6 +1,6 @@
 {
   "_comment": "Mario's coaching state. Claude Code reads and updates this. rotationIndex: 0=Push, 1=Pull, 2=Legs (points at the NEXT session).",
-  "rotationIndex": 1,
+  "rotationIndex": 2,
   "lastTrainedDate": "2026-06-17",
   "streak": 1,
   "currentKg": 72,
@@ -9,7 +9,7 @@
   "bodyFatTarget": "10-15%",
   "notes": "Fresh start. First session of the cycle is Push.",
   "history": [
-    { "date": "2026-06-17", "session": "push" }
+    { "date": "2026-06-17", "session": "pull" }
   ],
   "weightLog": [
     { "date": "2026-06-16", "kg": 72 }
